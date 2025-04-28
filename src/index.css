@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 18px;
+  /* padding: 2rem 0rem; */
+}
+.blue {
+  height: 220px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-color: hsl(231, 69%, 60%);
+  z-index: -10;
+}
+.blue-left {
+  left: 25%;
+  border-bottom-left-radius: 120px;
+  border-top-left-radius: 120px;
+}
+.blue-right {
+  right: 25%;
+  border-bottom-right-radius: 120px;
+  border-top-right-radius: 120px;
+}
+.test-border {
+  border: 2px solid red;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Rubik;
+  font-size: 16px;
+}
+.bookmark-features {
+  position: relative;
+}
+.bookmark-features::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 7rem;
+  background-color: hsl(0, 94%, 66%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cat {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cat img {
+  object-fit: contain;
+  height: 330px;
+  width: 100%;
+  max-width: 450px;
+}
+.tt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-area{
+  background:  hsl(0, 94%, 66%);
+  height: fit-content;
+  border: 2px solid hsl(0, 94%, 66%)
+}
+.email{
+  border: none;
+}
+.email:focus{
+  border: none;
+  outline: 2px solid transparent;
+}
