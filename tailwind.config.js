@@ -20,7 +20,8 @@ export default {
       },
       screens: {
         mobile: "375px",
-        xs: "400px", // ✅ added this line
+        xs: "400px",
+        md: "1500px", // ✅ added this line
         desktop: "1440px",
       },
     },
