@@ -39,7 +39,7 @@ body {
 .bookmark-features::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   left: 0;
   height: 4px;
   width: 7rem;
@@ -60,6 +60,17 @@ body {
   width: 100%;
   max-width: 450px;
 }
+.bat{
+  height: 70%;
+}
+.bat img{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 5%;
+}
+
 .tt {
   display: flex;
   justify-content: center;
@@ -83,3 +94,26 @@ body {
   border: none;
   outline: 2px solid transparent;
 }
+.deskBlue{
+    height: 55%;
+    position: absolute;
+    width: 82%;
+    bottom: 0;
+    background-color: hsl(231, 69%, 60%);
+    z-index: -10;
+}
+.desk-right {
+  right: 0px;
+  border-bottom-left-radius: 220px;
+  border-top-left-radius: 220px;
+}
+.desk-left {
+  left: 0%;
+  border-bottom-right-radius: 220px;
+  border-top-right-radius: 220px;
+}
+/* @media (min-width:768px) {
+  p{
+    font-size: 1.12rem;
+  }
+} */

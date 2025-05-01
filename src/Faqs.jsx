@@ -29,11 +29,11 @@ export function Faqs() {
     setOpenIndex(index === openIndex ? null : index);
   }
   return (
-    <div className="px-6 mt-24">
-      <h2 className="text-2xl font-medium text-center">
+    <div className="px-6 mt-24 md:w-[50%] md:flex flex-col place-self-center">
+      <h2 className="text-2xl font-medium text-center md:text-3xl">
         Frequently Asked Questions
       </h2>
-      <p className="text-gray-500 text-center mt-4">
+      <p className="text-gray-500 text-center mt-4 md:text-[1.23rem]">
         Here are some of our FAQs. If you have any other questions you’d like
         answered please feel free to email us.
       </p>
@@ -45,7 +45,7 @@ export function Faqs() {
             onClick={() => toggleFAQ(index)}
           >
             <div className="flex items-center justify-between">
-              <h4 className="text-[1rem] text-gray-900">{faq.question}</h4>
+              <h4 className="text-[1rem] text-gray-900 md:text-[1.2rem]">{faq.question}</h4>
               <span>
                 {openIndex === index ? (
                   <svg
@@ -81,7 +81,7 @@ export function Faqs() {
 
             <div>
               {openIndex === index && (
-                <p className="text-[0.88rem] mt-3">{faq.answer}</p>
+                <p className="text-[0.88rem] mt-3 md:text-[1rem]">{faq.answer}</p>
               )}
             </div>
           </div>

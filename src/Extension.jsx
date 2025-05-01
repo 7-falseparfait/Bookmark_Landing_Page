@@ -19,23 +19,27 @@ export function Extension() {
     },
   ];
   return (
-    <div className="mt-20 px-6">
+    <div className="mt-20 px-6 md:h-[80vh] md:mt-[22rem]">
       <div>
-        <h2 className="font-medium text-2xl  text-blue-950 text-center">
+        <h2 className="font-medium text-2xl  text-blue-950 text-center md:text-3xl">
           Download the extension
         </h2>
-        <p className="mt-2 text-gray-500 text-center">
+        <p className="mt-2 text-gray-500 text-center md:text-[1.23rem]">
           We’ve got more browsers in the pipeline. Please do let us know if
           you’ve got a favourite you’d like us to prioritize.
         </p>
       </div>
-      {details.map((item, i) => (
-        <ExtensionCards
-          key={i}
-          src={item.src}
-          title={item.title}
-          text={item.text} />
-      ))}
+      <div className="md:flex justify-center gap-12 mt-10">
+        {details.map((item, i) => (
+          <ExtensionCards
+            key={i}
+            src={item.src}
+            title={item.title}
+            text={item.text}
+            className={i === 0 ? "" : i === 1 ? "md:mt-16" : "md:mt-32"}
+          />
+        ))}
+      </div>
     </div>
   );
 }

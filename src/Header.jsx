@@ -24,9 +24,17 @@ export function Header() {
         <img src="images/logo-bookmark.svg" alt="logo" />
         <FontAwesomeIcon
           onClick={() => setisOpen(true)}
-          className="cursor-pointer transition-all duration-300"
+          className="cursor-pointer transition-all duration-300 hover:scale-110 md:hidden"
           icon={faBars}
         />
+        <div className="hidden md:flex items-center gap-8 justify-center">
+          <div className="flex gap-8">
+            {menu.map((item, i) => (
+              <p key={i} className="cursor-pointer">{item}</p>
+            ))}
+          </div>
+          <Button variant="contact" className="py-[0.5rem]">Login</Button>
+        </div>
       </div>
       {isOpen && (
         <div className="modal absolute w-full h-[100vh] top-0 px-6 bg-blue-950/95 pt-7 z-10">
