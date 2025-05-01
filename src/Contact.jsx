@@ -36,13 +36,13 @@ export function Contact() {
               type="text"
             />
             {error && (
-              <p className="text-[0.7rem] text-left transition-all duration-600 ease-in-out w-full pl-1 pt-[0.16rem]">
+              <p className="text-[0.7rem] text-left transition-all duration-600 ease-in-out w-full pl-1 pt-[0.16rem] min-h-[1rem]">
                 Whoops, make sure it's an email
               </p>
             )}
           </div>
 
-          <div className="w-full mt-5 md:mt-5 md:max-w-[20%]">
+          <div className="w-full mt-5 md:mt-5 md:max-w-[20%] md:shrink-0">
             <Button variant="contact" onClick={handleSubmit} className="w-full">
               Contact Us
             </Button>
