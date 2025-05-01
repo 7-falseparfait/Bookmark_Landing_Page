@@ -23,12 +23,12 @@ export function Hero() {
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
         <div className="flex flex-wrap gap-4 justify-center mt-8 md:justify-start">
-          <Button className="xs:w-[47%] xs:text-[0.5rem] md:text-[1.2rem]">
+          <Button className="xs:w-[47%] xs:text-[0.653rem] md:text-[1.2rem]">
             Get it on Chrome
           </Button>
           <Button
             variant="secondary"
-            className="xs:w-[47%] shadow-md text-[0.5rem] md:text-[1.2rem]"
+            className="xs:w-[47%] shadow-md text-[0.653rem] md:text-[1.2rem]"
           >
             Get it on Firefox
           </Button>{" "}
