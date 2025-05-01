@@ -30,7 +30,7 @@ export function Features() {
           </div>
         ))}
       </div>
-      <div className=" hidden md:flex justify-between">
+      <div className=" md:flex justify-between">
         <div className="mt-20 relative cat md:hidden">
           <div className="blue blue-right"></div>
           <img
@@ -53,7 +53,7 @@ export function Features() {
         </div>
 
         {activeTab === 0 && (
-          <div className="mt-8 md:w-[45%]  md:flex-col flex justify-center md:text-left">
+          <div className="mt-8 md:w-[45%]  md:flex-col flex flex-col justify-center md:text-left">
             <h2 className="font-medium text-2xl  text-blue-950 md:text-5xl ">
               Bookmark in one click
             </h2>
@@ -68,7 +68,7 @@ export function Features() {
           </div>
         )}
         {activeTab === 1 && (
-          <div className="mt-8 md:w-[43%]  md:flex-col flex justify-center md:text-left">
+          <div className="mt-8 md:w-[43%]  md:flex-col flex flex-col justify-center md:text-left">
             <h2 className="font-medium text-2xl  text-blue-950 md:text-5xl md:text-left">
               Intelligent Search
             </h2>
@@ -82,7 +82,7 @@ export function Features() {
           </div>
         )}
         {activeTab === 2 && (
-          <div className="mt-8 md:w-[43%]  md:flex-col flex justify-center md:text-left">
+          <div className="mt-8 md:w-[43%]  md:flex-col flex flex-col justify-center md:text-left">
             <h2 className="font-medium text-2xl  text-blue-950 md:text-5xl md:text-left">
               Share your bookmarks
             </h2>

@@ -9,7 +9,7 @@ import { Footer } from "./Footer";
 
 function App() {
   return (
-    <div>
+    <div className="w-screen overflow-x-hidden">
       <Header />
       <Hero />
       <Features />
