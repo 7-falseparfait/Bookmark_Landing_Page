@@ -10,14 +10,14 @@ import { Footer } from "./Footer";
 function App() {
   return (
     <div className="w-screen overflow-x-hidden">
-      <Header />
-      <Hero />
-      <Features />
-      <Extension />
-      <Faqs />
-      <Contact />
-      <Footer />
-    </div>
+        <Header />
+        <Hero />
+        <Features />
+        <Extension />
+        <Faqs />
+        <Contact />
+        <Footer />
+      </div>
   );
 }
 export default App;

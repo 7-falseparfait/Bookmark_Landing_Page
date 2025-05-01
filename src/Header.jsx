@@ -17,9 +17,9 @@ export function Header() {
   const menu = ["FEATURES", "PRICING", "CONTACT"];
   const [isOpen, setisOpen] = useState(false);
   return (
-    <div>
+    <div className="md:px-16">
       <div
-        className={`flex justify-between items-center px-6 pt-7 ${isOpen ? "invisible" : ""}`}
+        className={`flex justify-between items-center px-6 md:px-0 pt-7 ${isOpen ? "invisible" : ""}`}
       >
         <img src="images/logo-bookmark.svg" alt="logo" />
         <FontAwesomeIcon

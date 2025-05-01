@@ -2,7 +2,7 @@ import { Button } from "./Button";
 
 export function Hero() {
   return (
-    <div className="mt-8 px-6 h-[100vh] md:flex flex-row-reverse justify-between md:pr-0 md:h-[85vh]">
+    <div className="mt-8 px-6 h-[100vh] md:flex flex-row-reverse justify-between md:pr-0 md:px-16 md:h-[85vh]">
       <div className="relative cat md:hidden">
         <div className="blue blue-left"></div>
         <img src="images/illustration-hero.svg" alt="" srcset="" />

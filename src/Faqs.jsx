@@ -29,7 +29,7 @@ export function Faqs() {
     setOpenIndex(index === openIndex ? null : index);
   }
   return (
-    <div className="px-6 mt-24 md:w-[50%] md:flex flex-col place-self-center">
+    <div className="px-6 mt-24 md:w-[50%] md:flex flex-col place-self-center md:px-16">
       <h2 className="text-2xl font-medium text-center md:text-3xl">
         Frequently Asked Questions
       </h2>

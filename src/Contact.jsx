@@ -18,7 +18,7 @@ export function Contact() {
     }
   }
   return (
-    <div className="contact-section bg-blue-600 text-white px-6 pt-12 pb-7 mt-14 text-center">
+    <div className="contact-section bg-blue-600 text-white px-6 pt-12 pb-7 mt-14 text-center md:px-16">
       <div className="md:w-[50%] md:flex flex-col place-self-center">
         <p className="text-xs tracking-[0.2rem]">35,000+ ALREADY JOINED</p>
         <h3 className="text-xl font-medium  md:mt-6 md:text-2xl">
@@ -42,7 +42,7 @@ export function Contact() {
             )}
           </div>
 
-          <div className="w-full mt-5 md:mt-5 md:w-[20%]">
+          <div className="w-full mt-5 md:mt-5 md:max-w-[20%]">
             <Button variant="contact" onClick={handleSubmit} className="w-full">
               Contact Us
             </Button>

@@ -5,7 +5,7 @@ export function Features() {
   const [activeTab, setActiveTab] = useState(0);
   const features = ["Simple Bookmarking", "Speedy Searching", "Easy Sharing"];
   return (
-    <div className=" px-6 text-center md:mt-24 md:pl-0 md:h-[85vh]">
+    <div className=" px-6 md:px-16 text-center md:mt-24 md:pl-0 md:h-[85vh]">
       <h3 className="font-medium text-2xl md:text-3xl  text-blue-950 md:ml-6">
         Features
       </h3>
@@ -15,7 +15,7 @@ export function Features() {
         websites. Your bookmarks sync between your devices so you can access
         them on the go.
       </p>
-      <div className="features mt-8 md:flex items-center justify-center md:border-b-2 md:border-gray-200 gap-10 md:ml-6">
+      <div className="features mt-8 md:flex items-center justify-center md:border-b-2 md:border-gray-200 gap-10 md:ml-16">
         {features.map((item, i) => (
           <div
             onClick={() => setActiveTab(i)}
