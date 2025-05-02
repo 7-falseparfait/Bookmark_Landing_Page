@@ -5,7 +5,7 @@ export function Features() {
   const [activeTab, setActiveTab] = useState(0);
   const features = ["Simple Bookmarking", "Speedy Searching", "Easy Sharing"];
   return (
-    <div className=" h-[90vh] px-6 md:px-16 text-center md:mt-24 md:pl-0 md:h-[90vh]">
+    <div className="mt-[15rem] min-h-[100vh] px-6 md:px-16 text-center md:mt-24 md:pl-0 md:h-[90vh]">
       <h3 className="font-medium text-2xl md:text-3xl  text-blue-950 md:ml-6">
         Features
       </h3>

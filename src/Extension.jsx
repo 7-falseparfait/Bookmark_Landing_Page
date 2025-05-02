@@ -19,7 +19,7 @@ export function Extension() {
     },
   ];
   return (
-    <div className="mt-20 px-6 md:h-[80vh] md:mt-[22rem] md:px-16">
+    <div className="h-[90vh] mt-[15rem] px-6 md:h-[80vh] md:mt-[22rem] md:px-16">
       <div>
         <h2 className="font-medium text-2xl  text-blue-950 text-center md:text-3xl">
           Download the extension
