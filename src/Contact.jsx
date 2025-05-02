@@ -40,7 +40,7 @@ export function Contact() {
             </p>
           </div>
 
-          <div className="w-full mt-5 md:mt-5 md:max-w-[20%] md:shrink-0">
+          <div className="w-full mt-5 md:mt-5 md:max-w-[23%] md:shrink-0">
             <Button variant="contact" onClick={handleSubmit} className="w-full">
               Contact Us
             </Button>
