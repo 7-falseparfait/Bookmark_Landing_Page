@@ -24,7 +24,7 @@ export function Header() {
         <img src="images/logo-bookmark.svg" alt="logo" />
         <FontAwesomeIcon
           onClick={() => setisOpen(true)}
-          className="cursor-pointer transition-all duration-300 hover:scale-110 md:hidden"
+          className="cursor-pointer transition-all duration-300 hover:scale-110 md:hidden pr-5"
           icon={faBars}
         />
         <div className="hidden md:flex items-center gap-8 justify-center">

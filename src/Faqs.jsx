@@ -37,7 +37,7 @@ export function Faqs() {
         Here are some of our FAQs. If you have any other questions you’d like
         answered please feel free to email us.
       </p>
-      <div className="FAQs-section mt-10">
+      <div className="FAQs-section mt-10 px-6">
         {FAQs.map((faq, index) => (
           <div
             key={index}
