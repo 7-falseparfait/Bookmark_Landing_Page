@@ -44,6 +44,8 @@ export function Contact() {
             <Button variant="contact" onClick={handleSubmit} className="w-full">
               Contact Us
             </Button>
+            <p className="text-[0.7rem] text-left transition-all duration-600 ease-in-out w-full pl-1 pt-[0.16rem] min-h-[1rem]">
+            </p>
           </div>
         </div>
       </div>
