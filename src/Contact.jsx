@@ -26,7 +26,7 @@ export function Contact() {
         </h3>
         <div className="flex w-full flex-col md:flex-row justify-between">
           <div
-            className={`mt-5 md:w-[77%] rounded-bl-[0.12rem] transition-all duration-600 ease-in-out rounded-br-[0.12rem] ${error ? "input-area" : ""}`}
+            className={`mt-5 md:w-[72%] rounded-bl-[0.12rem] transition-all duration-600 ease-in-out rounded-br-[0.12rem] ${error ? "input-area" : ""}`}
           >
             <input
               onChange={handleEmailChange}
